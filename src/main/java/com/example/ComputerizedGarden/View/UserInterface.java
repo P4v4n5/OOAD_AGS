@@ -303,9 +303,10 @@ public class UserInterface extends Application {
         plantBox.setSpacing(10);
 
         Label plantLabel = new Label("Select Plants");
-        plantLabel.setFont(Font.font("Arial", FontWeight.BOLD, 16));
+        plantLabel.setFont(Font.font("Arial", FontWeight.BOLD, 20));
         plantLabel.setTextFill(Color.BLACK);  // Set text color to white for better visibility
         plantLabel.setPadding(new Insets(220, 0, 0, 0)); // 10px padding on top
+        plantLabel.setStyle("-fx-effect: dropshadow( gaussian, white, 5, 0, 0, 0);");
 
 
         HBox plantImagesBox = new HBox();
@@ -385,6 +386,7 @@ public class UserInterface extends Application {
         weatherImageView.setFitHeight(100);
         weatherLabel = new Label("Day 1: Start");
         weatherLabel.setFont(Font.font("Arial", FontWeight.BOLD, 14));
+        weatherLabel.setStyle("-fx-background-color: black; -fx-text-fill: white; -fx-border-color: white;");
 //        weatherLabel.setStyle("-fx-padding: 5;");
 
         VBox weatherBox = new VBox();
@@ -516,7 +518,7 @@ public class UserInterface extends Application {
     }
 
     private Label createDirectoryLabel() {
-        Label directoryLabel = new Label("MONITORING TABLE");
+        Label directoryLabel = new Label("GARDEN METRICS");
         directoryLabel.setFont(Font.font("Arial", FontWeight.BOLD, 16));
         directoryLabel.setStyle("-fx-background-color: black; -fx-text-fill: white; -fx-border-color: white;");
 //        directoryLabel.setStyle("-fx-text-fill: #FFFFFF; -fx-padding: 10; -fx-alignment: center;");
@@ -545,8 +547,9 @@ private void createDirectoryListView() {
     );
 
     // Set preferred and maximum sizes
-    directoryListView.setPrefSize(400, 300);
-    directoryListView.setMaxSize(300, 200);
+    directoryListView.setPrefSize(250, 380);
+    directoryListView.setMaxSize(250, 380);
+    VBox.setVgrow(directoryListView, Priority.ALWAYS);
 
     // Apply a cell factory for custom cell styling and text content formatting
     directoryListView.setCellFactory(_ -> new ListCell<>() {
@@ -562,7 +565,7 @@ private void createDirectoryListView() {
                 // Create a styled label for the content
                 Label label = new Label(item);
                 label.setStyle(
-                        "-fx-text-fill: #2E8B57;" // Sea green text color
+                        "-fx-text-fill: black;" // black text color
                                 + "-fx-font-family: 'Arial';" // Font family
                                 + "-fx-font-size: 14px;" // Font size
                                 + "-fx-font-weight: bold;" // Bold text
