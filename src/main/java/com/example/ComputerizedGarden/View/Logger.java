@@ -13,7 +13,7 @@ public class Logger {
     private final List<String> insectLogEntries;
     private final List<String> cleanerLogEntries;
     private final List<String> fertilizerLogEntries;
-    private static final String LOG_FILE_NAME = "OOAD_ComputarizedGarden_Logs.txt";
+    private static final String LOG_FILE_NAME = "OOAD_ComputerizedGarden_Logs.txt";
 
     public Logger() {
         dayLogEntries = new ArrayList<>();

@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 
 public class Main {
     public static void main(String[] args) {
-        String logFile = "OOAD_ComputarizedGarden_Logs.txt";
+        String logFile = "OOAD_ComputerizedGarden_Logs.txt";
         try {
             Files.newBufferedWriter(Paths.get(logFile)).close();
             System.out.println("Log file successfully cleared.");
