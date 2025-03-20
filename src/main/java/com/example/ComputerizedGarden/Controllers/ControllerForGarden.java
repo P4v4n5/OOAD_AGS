@@ -1,9 +1,10 @@
 package com.example.ComputerizedGarden.Controllers;
-import com.example.ComputerizedGarden.Model.Plant;
-import com.example.ComputerizedGarden.Systems.Sensor;
 import com.example.ComputerizedGarden.Model.Insect;
 import javafx.scene.layout.GridPane;
 import com.example.ComputerizedGarden.View.Logger;
+import com.example.ComputerizedGarden.Model.Plant;
+import com.example.ComputerizedGarden.Systems.Sensor;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,11 +57,11 @@ public class ControllerForGarden {
 
         // Additional actions based on weather
         switch (weather) {
-            case "Cold", "Snowy" -> logger.addHeatingLogEntry("Day " + dayCount + ": Heating system activated.");
-            case "Cloudy" -> logger.addDayLogEntry("Day " + dayCount + ": Cloudy weather observed. No special actions taken.");
-            case "Windy" -> logger.addDayLogEntry("Day " + dayCount + ": Wind protection shield activated.");
-            case "Sunny" -> logger.addDayLogEntry("Day " + dayCount + ": Sprinklers activated for dry sunny weather.");
-            case "Rainy" -> logger.addDayLogEntry("Day " + dayCount + ": Plants received natural watering from rain.");
+            case "Cold", "Snowy" -> logger.addHeatingLogEntry("Day " + dayCount + ": Heating system is activated.");
+            case "Cloudy" -> logger.addDayLogEntry("Day " + dayCount + ": Weather is Cloudy. No special actions taken.");
+            case "Windy" -> logger.addDayLogEntry("Day " + dayCount + ": Weather ris Windy - Wind protection shield activated.");
+            case "Sunny" -> logger.addDayLogEntry("Day " + dayCount + ": Weather is Sunny - Sprinklers activated for dry sunny weather.");
+            case "Rainy" -> logger.addDayLogEntry("Day " + dayCount + ": weather is Rainy - Plants received natural watering from rain.");
         }
 
         logger.addDayLogEntry("Day " + dayCount + ": simulation completed.");
@@ -76,6 +77,14 @@ public class ControllerForGarden {
         dayCount = 0;
     }
 
+    public Logger getLogger() {
+        return logger;
+    }
+
+    public int getDay() {
+        return dayCount;
+    }
+
     public void addPlant(Plant plant) {
         plants.add(plant);
         logger.addDayLogEntry("Added plant: " + plant.getName() + " at grid (" + plant.getRow() + "," + plant.getCol() + ")");
@@ -89,22 +98,14 @@ public class ControllerForGarden {
         return insects;
     }
 
-    public Logger getLogger() {
-        return logger;
-    }
-
-    public int getDay() {
-        return dayCount;
-    }
-
     public String getCurrentWeather() {
         if (WEATHER_TYPES == null || WEATHER_TYPES.length == 0) {
-            System.err.println("Error: WEATHER_TYPES is not configured. Defaulting to 'Sunny'.");
+            System.err.println("Error: Since WEATHER_TYPES is not configured. Defaulting to 'Sunny'.");
             return "Sunny";
         }
         String weather = WEATHER_TYPES[new Random().nextInt(WEATHER_TYPES.length)];
         if (weather == null) {
-            System.err.println("Error: Randomly selected weather is null. Defaulting to 'Sunny'.");
+            System.err.println("Error: Defaulting the weather to 'Sunny'.");
             return "Sunny";
         }
         return weather;

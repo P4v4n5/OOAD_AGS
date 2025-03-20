@@ -1,0 +1,684 @@
+Day Log: Added plant: Pineapple at grid (0,3)
+Day Log: Added plant: Corn at grid (6,11)
+Day Log: Added plant: Corn at grid (6,5)
+Day Log: Added plant: Watermelon at grid (3,4)
+Day Log: Added plant: Watermelon at grid (3,11)
+Day Log: Added plant: Carrot at grid (3,2)
+Day Log: Added plant: Watermelon at grid (5,6)
+Day Log: Added plant: Watermelon at grid (0,11)
+Day Log: Added plant: Watermelon at grid (4,10)
+Day Log: Added plant: Watermelon at grid (3,0)
+Day Log: Day 1: simulation started.
+Day Log: Weather: Windy
+Insect Log: Day 1: Pest attack by Spider on plant: Pineapple at grid (0,3)
+Insect Log: Day 1: Pest attack by Spider on plant: Corn at grid (6,11)
+Insect Log: Day 1: Good insect Beetle is found near plant: Corn at grid (6,5)
+Insect Log: Day 1: Pest attack by Caterpillar on plant: Watermelon at grid (3,4)
+Insect Log: Day 1: Pest attack by Spider on plant: Watermelon at grid (3,11)
+Insect Log: Day 1: Pest attack by Caterpillar on plant: Carrot at grid (3,2)
+Insect Log: Day 1: Pest attack by Caterpillar on plant: Watermelon at grid (5,6)
+Insect Log: Day 1: Good insect Butterfly is found near plant: Watermelon at grid (0,11)
+Insect Log: Day 1: Pest attack by Caterpillar on plant: Watermelon at grid (4,10)
+Insect Log: Day 1: Pest attack by Caterpillar on plant: Watermelon at grid (3,0)
+Watering Log: Day 1: Plants watered.
+Day Log: Day 1: Weather ris Windy - Wind protection shield activated.
+Day Log: Day 1: simulation completed.
+Fertilizer Log: Day 1: Fertilizing not needed and Skipped Pineapple at grid (0,3). Days since last fertilized: 1. Frequency: 6
+Fertilizer Log: Day 1: Fertilizing not needed and Skipped Corn at grid (6,11). Days since last fertilized: 1. Frequency: 4
+Fertilizer Log: Day 1: Fertilizing not needed and Skipped Corn at grid (6,5). Days since last fertilized: 1. Frequency: 4
+Fertilizer Log: Day 1: Fertilizing not needed and Skipped Watermelon at grid (3,4). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 1: Fertilizing not needed and Skipped Watermelon at grid (3,11). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 1: Fertilizing not needed and Skipped Carrot at grid (3,2). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 1: Fertilizing not needed and Skipped Watermelon at grid (5,6). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 1: Fertilizing not needed and Skipped Watermelon at grid (0,11). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 1: Fertilizing not needed and Skipped Watermelon at grid (4,10). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 1: Fertilizing not needed and Skipped Watermelon at grid (3,0). Days since last fertilized: 1. Frequency: 3
+Day Log: Day 2: simulation started.
+Day Log: Weather: Cloudy
+Insect Log: Day 2: Pest attack by Caterpillar on plant: Pineapple at grid (0,3)
+Cleaner Log: Day 2 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Pineapple at grid (0,3)
+Cleaner Log: Day 2: Cleaner visiting plant: Pineapple at grid (0,3)
+Insect Log: Day 2: Pest attack by Spider on plant: Corn at grid (6,11)
+Cleaner Log: Day 2 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@6ff11027 cleaning pests near plant: Corn at grid (6,11)
+Cleaner Log: Day 2: Cleaner visiting plant: Corn at grid (6,11)
+Insect Log: Day 2: Good insect Beetle is found near plant: Corn at grid (6,5)
+Insect Log: Day 2: Pest attack by Spider on plant: Watermelon at grid (3,4)
+Cleaner Log: Day 2 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@273d3f9c cleaning pests near plant: Watermelon at grid (3,4)
+Cleaner Log: Day 2: Cleaner visiting plant: Watermelon at grid (3,4)
+Insect Log: Day 2: Good insect Butterfly is found near plant: Watermelon at grid (3,11)
+Insect Log: Day 2: Good insect Butterfly is found near plant: Carrot at grid (3,2)
+Insect Log: Day 2: Good insect Butterfly is found near plant: Watermelon at grid (5,6)
+Insect Log: Day 2: Good insect Butterfly is found near plant: Watermelon at grid (0,11)
+Insect Log: Day 2: Good insect Beetle is found near plant: Watermelon at grid (4,10)
+Insect Log: Day 2: Good insect Butterfly is found near plant: Watermelon at grid (3,0)
+Watering Log: Day 2: Plants watered.
+Day Log: Day 2: Weather is Cloudy. No special actions taken.
+Day Log: Day 2: simulation completed.
+Fertilizer Log: Day 2: Fertilizing not needed and Skipped Pineapple at grid (0,3). Days since last fertilized: 2. Frequency: 6
+Fertilizer Log: Day 2: Fertilizing not needed and Skipped Corn at grid (6,11). Days since last fertilized: 2. Frequency: 4
+Fertilizer Log: Day 2: Fertilizing not needed and Skipped Corn at grid (6,5). Days since last fertilized: 2. Frequency: 4
+Fertilizer Log: Day 2: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 2: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 2: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 2: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 2: Fertilizing not needed and Skipped Watermelon at grid (0,11). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 2: Fertilizing not needed and Skipped Watermelon at grid (4,10). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 2: Fertilizing not needed and Skipped Watermelon at grid (3,0). Days since last fertilized: 2. Frequency: 3
+Day Log: Day 3: simulation started.
+Day Log: Weather: Cloudy
+Insect Log: Day 3: Good insect Beetle is found near plant: Pineapple at grid (0,3)
+Insect Log: Day 3: Pest attack by Spider on plant: Corn at grid (6,11)
+Insect Log: Day 3: Pest attack by Caterpillar on plant: Corn at grid (6,5)
+Insect Log: Day 3: Good insect Beetle is found near plant: Watermelon at grid (3,4)
+Insect Log: Day 3: Pest attack by Spider on plant: Watermelon at grid (3,11)
+Cleaner Log: Day 3 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Watermelon at grid (3,11)
+Cleaner Log: Day 3: Cleaner visiting plant: Watermelon at grid (3,11)
+Insect Log: Day 3: Pest attack by Caterpillar on plant: Carrot at grid (3,2)
+Cleaner Log: Day 3 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@6ff11027 cleaning pests near plant: Carrot at grid (3,2)
+Cleaner Log: Day 3: Cleaner visiting plant: Carrot at grid (3,2)
+Insect Log: Day 3: Pest attack by Spider on plant: Watermelon at grid (5,6)
+Cleaner Log: Day 3 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@273d3f9c cleaning pests near plant: Watermelon at grid (5,6)
+Cleaner Log: Day 3: Cleaner visiting plant: Watermelon at grid (5,6)
+Insect Log: Day 3: Pest attack by Caterpillar on plant: Watermelon at grid (0,11)
+Insect Log: Day 3: Good insect Beetle is found near plant: Watermelon at grid (4,10)
+Insect Log: Day 3: Pest attack by Caterpillar on plant: Watermelon at grid (3,0)
+Watering Log: Day 3: Plants watered.
+Day Log: Day 3: Weather is Cloudy. No special actions taken.
+Day Log: Day 3: simulation completed.
+Cleaner Log: Day 3 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Watermelon at grid (3,0)
+Cleaner Log: Day 3: Cleaner visiting plant: Watermelon at grid (3,0)
+Fertilizer Log: 8 units of Organic Fertilizer is Restocked
+Fertilizer Log: 8 units of Chemical Fertilizer is Restocked
+Fertilizer Log: Day 3: Fertilizing not needed and Skipped Pineapple at grid (0,3). Days since last fertilized: 3. Frequency: 6
+Fertilizer Log: Day 3: Fertilizing not needed and Skipped Corn at grid (6,11). Days since last fertilized: 3. Frequency: 4
+Fertilizer Log: Day 3: Fertilizing not needed and Skipped Corn at grid (6,5). Days since last fertilized: 3. Frequency: 4
+Fertilizer Log: Day 3: Fertilizing not needed and Skipped Watermelon at grid (3,4). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 3: Fertilizing not needed and Skipped Watermelon at grid (3,11). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 3: Fertilizing not needed and Skipped Carrot at grid (3,2). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 3: Fertilizing not needed and Skipped Watermelon at grid (5,6). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 3: Applied Chemical Fertilizer to plant: Watermelon at grid (0,11)
+Fertilizer Log: Day 3: Applied Organic Fertilizer to plant: Watermelon at grid (4,10)
+Fertilizer Log: Day 3: Applied Organic Fertilizer to plant: Watermelon at grid (3,0)
+Day Log: Day 4: simulation started.
+Day Log: Weather: Cold
+Insect Log: Day 4: Good insect Beetle is found near plant: Pineapple at grid (0,3)
+Insect Log: Day 4: Pest attack by Spider on plant: Corn at grid (6,11)
+Cleaner Log: Day 4 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Corn at grid (6,11)
+Cleaner Log: Day 4: Cleaner visiting plant: Corn at grid (6,11)
+Insect Log: Day 4: Good insect Butterfly is found near plant: Corn at grid (6,5)
+Insect Log: Day 4: Pest attack by Caterpillar on plant: Watermelon at grid (3,4)
+Insect Log: Day 4: Good insect Butterfly is found near plant: Watermelon at grid (3,11)
+Insect Log: Day 4: Good insect Butterfly is found near plant: Carrot at grid (3,2)
+Insect Log: Day 4: Pest attack by Caterpillar on plant: Watermelon at grid (5,6)
+Insect Log: Day 4: Pest attack by Caterpillar on plant: Watermelon at grid (0,11)
+Cleaner Log: Day 4 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@6ff11027 cleaning pests near plant: Watermelon at grid (0,11)
+Cleaner Log: Day 4: Cleaner visiting plant: Watermelon at grid (0,11)
+Insect Log: Day 4: Good insect Butterfly is found near plant: Watermelon at grid (4,10)
+Insect Log: Day 4: Good insect Beetle is found near plant: Watermelon at grid (3,0)
+Watering Log: Day 4: Plants watered.
+Heating Log: Day 4: Heating system is activated.
+Day Log: Day 4: simulation completed.
+Fertilizer Log: Day 4: Fertilizing not needed and Skipped Pineapple at grid (0,3). Days since last fertilized: 4. Frequency: 6
+Fertilizer Log: Day 4: Applied Chemical Fertilizer to plant: Corn at grid (6,11)
+Fertilizer Log: Day 4: Applied Chemical Fertilizer to plant: Corn at grid (6,5)
+Fertilizer Log: Day 4: Applied Chemical Fertilizer to plant: Watermelon at grid (3,4)
+Fertilizer Log: Day 4: Applied Organic Fertilizer to plant: Watermelon at grid (3,11)
+Fertilizer Log: Day 4: Applied Organic Fertilizer to plant: Carrot at grid (3,2)
+Fertilizer Log: Day 4: Applied Organic Fertilizer to plant: Watermelon at grid (5,6)
+Fertilizer Log: Day 4: Fertilizing not needed and Skipped Watermelon at grid (0,11). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 4: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 4: Organic Fertilizer stock is not Available
+Day Log: Day 5: simulation started.
+Day Log: Weather: Snowy
+Insect Log: Day 5: Pest attack by Caterpillar on plant: Pineapple at grid (0,3)
+Insect Log: Day 5: Good insect Butterfly is found near plant: Corn at grid (6,11)
+Insect Log: Day 5: Pest attack by Caterpillar on plant: Corn at grid (6,5)
+Cleaner Log: Day 5 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Corn at grid (6,5)
+Cleaner Log: Day 5: Cleaner visiting plant: Corn at grid (6,5)
+Insect Log: Day 5: Pest attack by Spider on plant: Watermelon at grid (3,4)
+Cleaner Log: Day 5 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@6ff11027 cleaning pests near plant: Watermelon at grid (3,4)
+Cleaner Log: Day 5: Cleaner visiting plant: Watermelon at grid (3,4)
+Insect Log: Day 5: Pest attack by Spider on plant: Watermelon at grid (3,11)
+Insect Log: Day 5: Good insect Butterfly is found near plant: Carrot at grid (3,2)
+Insect Log: Day 5: Pest attack by Spider on plant: Watermelon at grid (5,6)
+Cleaner Log: Day 5 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@273d3f9c cleaning pests near plant: Watermelon at grid (5,6)
+Cleaner Log: Day 5: Cleaner visiting plant: Watermelon at grid (5,6)
+Insect Log: Day 5: Good insect Beetle is found near plant: Watermelon at grid (0,11)
+Insect Log: Day 5: Pest attack by Spider on plant: Watermelon at grid (4,10)
+Insect Log: Day 5: Pest attack by Caterpillar on plant: Watermelon at grid (3,0)
+Watering Log: Day 5: Plants watered.
+Heating Log: Day 5: Heating system is activated.
+Day Log: Day 5: simulation completed.
+Cleaner Log: Day 5 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Watermelon at grid (4,10)
+Cleaner Log: Day 5: Cleaner visiting plant: Watermelon at grid (4,10)
+Fertilizer Log: Day 5: Fertilizing not needed and Skipped Pineapple at grid (0,3). Days since last fertilized: 5. Frequency: 6
+Fertilizer Log: Day 5: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 5: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 5: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 5: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 5: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 5: Fertilizing not needed and Skipped Watermelon at grid (5,6). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 5: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 5: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 5: Chemical Fertilizer stock is not Available
+Day Log: Day 6: simulation started.
+Day Log: Weather: Snowy
+Insect Log: Day 6: Good insect Butterfly is found near plant: Pineapple at grid (0,3)
+Insect Log: Day 6: Good insect Butterfly is found near plant: Corn at grid (6,11)
+Insect Log: Day 6: Pest attack by Caterpillar on plant: Corn at grid (6,5)
+Insect Log: Day 6: Pest attack by Caterpillar on plant: Watermelon at grid (3,4)
+Insect Log: Day 6: Pest attack by Spider on plant: Watermelon at grid (3,11)
+Cleaner Log: Day 6 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Watermelon at grid (3,11)
+Cleaner Log: Day 6: Cleaner visiting plant: Watermelon at grid (3,11)
+Insect Log: Day 6: Good insect Butterfly is found near plant: Carrot at grid (3,2)
+Insect Log: Day 6: Good insect Butterfly is found near plant: Watermelon at grid (5,6)
+Insect Log: Day 6: Good insect Beetle is found near plant: Watermelon at grid (0,11)
+Insect Log: Day 6: Good insect Beetle is found near plant: Watermelon at grid (4,10)
+Insect Log: Day 6: Good insect Beetle is found near plant: Watermelon at grid (3,0)
+Watering Log: Day 6: Plants watered.
+Heating Log: Day 6: Heating system is activated.
+Day Log: Day 6: simulation completed.
+Fertilizer Log: 8 units of Organic Fertilizer is Restocked
+Fertilizer Log: 8 units of Chemical Fertilizer is Restocked
+Fertilizer Log: Day 6: Applied Chemical Fertilizer to plant: Pineapple at grid (0,3)
+Fertilizer Log: Day 6: Fertilizing not needed and Skipped Corn at grid (6,11). Days since last fertilized: 1. Frequency: 4
+Fertilizer Log: Day 6: Fertilizing not needed and Skipped Corn at grid (6,5). Days since last fertilized: 1. Frequency: 4
+Fertilizer Log: Day 6: Fertilizing not needed and Skipped Watermelon at grid (3,4). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 6: Fertilizing not needed and Skipped Watermelon at grid (3,11). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 6: Fertilizing not needed and Skipped Carrot at grid (3,2). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 6: Fertilizing not needed and Skipped Watermelon at grid (5,6). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 6: Fertilizing not needed and Skipped Watermelon at grid (0,11). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 6: Fertilizing not needed and Skipped Watermelon at grid (4,10). Days since last fertilized: 1. Frequency: 3
+Day Log: Day 7: simulation started.
+Day Log: Weather: Windy
+Insect Log: Day 7: Pest attack by Spider on plant: Pineapple at grid (0,3)
+Cleaner Log: Day 7 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Pineapple at grid (0,3)
+Cleaner Log: Day 7: Cleaner visiting plant: Pineapple at grid (0,3)
+Insect Log: Day 7: Good insect Beetle is found near plant: Corn at grid (6,11)
+Insect Log: Day 7: Good insect Beetle is found near plant: Corn at grid (6,5)
+Insect Log: Day 7: Good insect Butterfly is found near plant: Watermelon at grid (3,4)
+Insect Log: Day 7: Good insect Butterfly is found near plant: Watermelon at grid (3,11)
+Insect Log: Day 7: Good insect Butterfly is found near plant: Carrot at grid (3,2)
+Insect Log: Day 7: Good insect Beetle is found near plant: Watermelon at grid (5,6)
+Insect Log: Day 7: Pest attack by Caterpillar on plant: Watermelon at grid (0,11)
+Insect Log: Day 7: Good insect Beetle is found near plant: Watermelon at grid (4,10)
+Watering Log: Day 7: Plants watered.
+Day Log: Day 7: Weather ris Windy - Wind protection shield activated.
+Day Log: Day 7: simulation completed.
+Fertilizer Log: Day 7: Fertilizing not needed and Skipped Pineapple at grid (0,3). Days since last fertilized: 1. Frequency: 6
+Fertilizer Log: Day 7: Fertilizing not needed and Skipped Corn at grid (6,11). Days since last fertilized: 2. Frequency: 4
+Fertilizer Log: Day 7: Fertilizing not needed and Skipped Corn at grid (6,5). Days since last fertilized: 2. Frequency: 4
+Fertilizer Log: Day 7: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 7: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 7: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 7: Applied Organic Fertilizer to plant: Watermelon at grid (5,6)
+Fertilizer Log: Day 7: Applied Organic Fertilizer to plant: Watermelon at grid (0,11)
+Fertilizer Log: Day 7: Chemical Fertilizer stock is not Available
+Day Log: Day 8: simulation started.
+Day Log: Weather: Cold
+Insect Log: Day 8: Good insect Beetle is found near plant: Pineapple at grid (0,3)
+Insect Log: Day 8: Pest attack by Spider on plant: Corn at grid (6,11)
+Insect Log: Day 8: Pest attack by Caterpillar on plant: Corn at grid (6,5)
+Cleaner Log: Day 8 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Corn at grid (6,5)
+Cleaner Log: Day 8: Cleaner visiting plant: Corn at grid (6,5)
+Insect Log: Day 8: Good insect Beetle is found near plant: Watermelon at grid (3,4)
+Insect Log: Day 8: Good insect Butterfly is found near plant: Watermelon at grid (3,11)
+Insect Log: Day 8: Good insect Butterfly is found near plant: Carrot at grid (3,2)
+Insect Log: Day 8: Good insect Beetle is found near plant: Watermelon at grid (5,6)
+Insect Log: Day 8: Pest attack by Caterpillar on plant: Watermelon at grid (0,11)
+Cleaner Log: Day 8 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@6ff11027 cleaning pests near plant: Watermelon at grid (0,11)
+Cleaner Log: Day 8: Cleaner visiting plant: Watermelon at grid (0,11)
+Insect Log: Day 8: Pest attack by Spider on plant: Watermelon at grid (4,10)
+Watering Log: Day 8: Plants watered.
+Heating Log: Day 8: Heating system is activated.
+Day Log: Day 8: simulation completed.
+Fertilizer Log: Day 8: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 8: Fertilizing not needed and Skipped Corn at grid (6,11). Days since last fertilized: 3. Frequency: 4
+Fertilizer Log: Day 8: Fertilizing not needed and Skipped Corn at grid (6,5). Days since last fertilized: 3. Frequency: 4
+Fertilizer Log: Day 8: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 8: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 8: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 8: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 8: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 8: Chemical Fertilizer stock is not Available
+Day Log: Day 9: simulation started.
+Day Log: Weather: Windy
+Insect Log: Day 9: Good insect Butterfly is found near plant: Pineapple at grid (0,3)
+Insect Log: Day 9: Pest attack by Spider on plant: Corn at grid (6,11)
+Cleaner Log: Day 9 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Corn at grid (6,11)
+Cleaner Log: Day 9: Cleaner visiting plant: Corn at grid (6,11)
+Insect Log: Day 9: Good insect Butterfly is found near plant: Corn at grid (6,5)
+Insect Log: Day 9: Good insect Butterfly is found near plant: Watermelon at grid (3,4)
+Insect Log: Day 9: Pest attack by Spider on plant: Watermelon at grid (3,11)
+Insect Log: Day 9: Good insect Beetle is found near plant: Carrot at grid (3,2)
+Insect Log: Day 9: Good insect Butterfly is found near plant: Watermelon at grid (5,6)
+Insect Log: Day 9: Good insect Beetle is found near plant: Watermelon at grid (0,11)
+Insect Log: Day 9: Pest attack by Spider on plant: Watermelon at grid (4,10)
+Cleaner Log: Day 9 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@6ff11027 cleaning pests near plant: Watermelon at grid (4,10)
+Cleaner Log: Day 9: Cleaner visiting plant: Watermelon at grid (4,10)
+Watering Log: Day 9: Plants watered.
+Day Log: Day 9: Weather ris Windy - Wind protection shield activated.
+Day Log: Day 9: simulation completed.
+Fertilizer Log: 8 units of Organic Fertilizer is Restocked
+Fertilizer Log: 8 units of Chemical Fertilizer is Restocked
+Fertilizer Log: Day 9: Fertilizing not needed and Skipped Pineapple at grid (0,3). Days since last fertilized: 2. Frequency: 6
+Fertilizer Log: Day 9: Applied Chemical Fertilizer to plant: Corn at grid (6,11)
+Fertilizer Log: Day 9: Applied Organic Fertilizer to plant: Corn at grid (6,5)
+Fertilizer Log: Day 9: Fertilizing not needed and Skipped Watermelon at grid (3,4). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 9: Fertilizing not needed and Skipped Watermelon at grid (3,11). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 9: Fertilizing not needed and Skipped Carrot at grid (3,2). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 9: Fertilizing not needed and Skipped Watermelon at grid (5,6). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 9: Fertilizing not needed and Skipped Watermelon at grid (0,11). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 9: Fertilizing not needed and Skipped Watermelon at grid (4,10). Days since last fertilized: 2. Frequency: 3
+Day Log: Day 10: simulation started.
+Day Log: Weather: Rainy
+Insect Log: Day 10: Good insect Butterfly is found near plant: Pineapple at grid (0,3)
+Insect Log: Day 10: Good insect Butterfly is found near plant: Corn at grid (6,11)
+Insect Log: Day 10: Good insect Beetle is found near plant: Corn at grid (6,5)
+Insect Log: Day 10: Good insect Butterfly is found near plant: Watermelon at grid (3,4)
+Insect Log: Day 10: Good insect Beetle is found near plant: Watermelon at grid (3,11)
+Insect Log: Day 10: Pest attack by Spider on plant: Carrot at grid (3,2)
+Insect Log: Day 10: Pest attack by Caterpillar on plant: Watermelon at grid (5,6)
+Insect Log: Day 10: Pest attack by Caterpillar on plant: Watermelon at grid (0,11)
+Insect Log: Day 10: Pest attack by Spider on plant: Watermelon at grid (4,10)
+Watering Log: Day 10: Plants watered.
+Day Log: Day 10: weather is Rainy - Plants received natural watering from rain.
+Day Log: Day 10: simulation completed.
+Fertilizer Log: Day 10: Fertilizing not needed and Skipped Pineapple at grid (0,3). Days since last fertilized: 3. Frequency: 6
+Fertilizer Log: Day 10: Fertilizing not needed and Skipped Corn at grid (6,11). Days since last fertilized: 1. Frequency: 4
+Fertilizer Log: Day 10: Fertilizing not needed and Skipped Corn at grid (6,5). Days since last fertilized: 1. Frequency: 4
+Fertilizer Log: Day 10: Applied Organic Fertilizer to plant: Watermelon at grid (3,4)
+Fertilizer Log: Day 10: Applied Chemical Fertilizer to plant: Watermelon at grid (3,11)
+Fertilizer Log: Day 10: Applied Chemical Fertilizer to plant: Carrot at grid (3,2)
+Fertilizer Log: Day 10: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 10: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 10: Applied Chemical Fertilizer to plant: Watermelon at grid (4,10)
+Day Log: Day 11: simulation started.
+Day Log: Weather: Snowy
+Insect Log: Day 11: Good insect Beetle is found near plant: Pineapple at grid (0,3)
+Insect Log: Day 11: Good insect Beetle is found near plant: Corn at grid (6,11)
+Insect Log: Day 11: Good insect Butterfly is found near plant: Corn at grid (6,5)
+Insect Log: Day 11: Pest attack by Caterpillar on plant: Watermelon at grid (3,4)
+Cleaner Log: Day 11 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Watermelon at grid (3,4)
+Cleaner Log: Day 11: Cleaner visiting plant: Watermelon at grid (3,4)
+Insect Log: Day 11: Pest attack by Spider on plant: Watermelon at grid (3,11)
+Cleaner Log: Day 11 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@6ff11027 cleaning pests near plant: Watermelon at grid (3,11)
+Cleaner Log: Day 11: Cleaner visiting plant: Watermelon at grid (3,11)
+Insect Log: Day 11: Good insect Butterfly is found near plant: Carrot at grid (3,2)
+Insect Log: Day 11: Good insect Butterfly is found near plant: Watermelon at grid (5,6)
+Insect Log: Day 11: Pest attack by Spider on plant: Watermelon at grid (0,11)
+Cleaner Log: Day 11 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@273d3f9c cleaning pests near plant: Watermelon at grid (0,11)
+Cleaner Log: Day 11: Cleaner visiting plant: Watermelon at grid (0,11)
+Insect Log: Day 11: Good insect Butterfly is found near plant: Watermelon at grid (4,10)
+Watering Log: Day 11: Plants watered.
+Heating Log: Day 11: Heating system is activated.
+Day Log: Day 11: simulation completed.
+Fertilizer Log: Day 11: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 11: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 11: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 11: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 11: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 11: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 11: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 11: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 11: Organic Fertilizer stock is not Available
+Day Log: Day 12: simulation started.
+Day Log: Weather: Windy
+Insect Log: Day 12: Pest attack by Spider on plant: Pineapple at grid (0,3)
+Insect Log: Day 12: Good insect Beetle is found near plant: Corn at grid (6,11)
+Insect Log: Day 12: Good insect Beetle is found near plant: Corn at grid (6,5)
+Insect Log: Day 12: Good insect Butterfly is found near plant: Watermelon at grid (3,4)
+Insect Log: Day 12: Good insect Butterfly is found near plant: Watermelon at grid (3,11)
+Insect Log: Day 12: Good insect Butterfly is found near plant: Carrot at grid (3,2)
+Insect Log: Day 12: Good insect Beetle is found near plant: Watermelon at grid (5,6)
+Insect Log: Day 12: Good insect Butterfly is found near plant: Watermelon at grid (0,11)
+Insect Log: Day 12: Good insect Butterfly is found near plant: Watermelon at grid (4,10)
+Watering Log: Day 12: Plants watered.
+Day Log: Day 12: Weather ris Windy - Wind protection shield activated.
+Day Log: Day 12: simulation completed.
+Fertilizer Log: 8 units of Organic Fertilizer is Restocked
+Fertilizer Log: 8 units of Chemical Fertilizer is Restocked
+Fertilizer Log: Day 12: Fertilizing not needed and Skipped Pineapple at grid (0,3). Days since last fertilized: 4. Frequency: 6
+Fertilizer Log: Day 12: Fertilizing not needed and Skipped Corn at grid (6,11). Days since last fertilized: 2. Frequency: 4
+Fertilizer Log: Day 12: Fertilizing not needed and Skipped Corn at grid (6,5). Days since last fertilized: 2. Frequency: 4
+Fertilizer Log: Day 12: Fertilizing not needed and Skipped Watermelon at grid (3,4). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 12: Fertilizing not needed and Skipped Watermelon at grid (3,11). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 12: Fertilizing not needed and Skipped Carrot at grid (3,2). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 12: Fertilizing not needed and Skipped Watermelon at grid (5,6). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 12: Fertilizing not needed and Skipped Watermelon at grid (0,11). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 12: Fertilizing not needed and Skipped Watermelon at grid (4,10). Days since last fertilized: 1. Frequency: 3
+Day Log: Day 13: simulation started.
+Day Log: Weather: Sunny
+Insect Log: Day 13: Good insect Beetle is found near plant: Pineapple at grid (0,3)
+Insect Log: Day 13: Pest attack by Spider on plant: Corn at grid (6,11)
+Insect Log: Day 13: Good insect Beetle is found near plant: Corn at grid (6,5)
+Insect Log: Day 13: Pest attack by Spider on plant: Watermelon at grid (3,4)
+Insect Log: Day 13: Good insect Butterfly is found near plant: Watermelon at grid (3,11)
+Insect Log: Day 13: Good insect Beetle is found near plant: Carrot at grid (3,2)
+Insect Log: Day 13: Pest attack by Caterpillar on plant: Watermelon at grid (5,6)
+Cleaner Log: Day 13 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Watermelon at grid (5,6)
+Cleaner Log: Day 13: Cleaner visiting plant: Watermelon at grid (5,6)
+Insect Log: Day 13: Good insect Beetle is found near plant: Watermelon at grid (0,11)
+Insect Log: Day 13: Good insect Beetle is found near plant: Watermelon at grid (4,10)
+Watering Log: Day 13: Plants watered.
+Day Log: Day 13: Weather is Sunny - Sprinklers activated for dry sunny weather.
+Day Log: Day 13: simulation completed.
+Fertilizer Log: Day 13: Fertilizing not needed and Skipped Pineapple at grid (0,3). Days since last fertilized: 5. Frequency: 6
+Fertilizer Log: Day 13: Fertilizing not needed and Skipped Corn at grid (6,11). Days since last fertilized: 3. Frequency: 4
+Fertilizer Log: Day 13: Fertilizing not needed and Skipped Corn at grid (6,5). Days since last fertilized: 3. Frequency: 4
+Fertilizer Log: Day 13: Fertilizing not needed and Skipped Watermelon at grid (3,4). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 13: Fertilizing not needed and Skipped Watermelon at grid (3,11). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 13: Fertilizing not needed and Skipped Carrot at grid (3,2). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 13: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 13: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 13: Fertilizing not needed and Skipped Watermelon at grid (4,10). Days since last fertilized: 2. Frequency: 3
+Day Log: Day 14: simulation started.
+Day Log: Weather: Cloudy
+Insect Log: Day 14: Pest attack by Spider on plant: Pineapple at grid (0,3)
+Cleaner Log: Day 14 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Pineapple at grid (0,3)
+Cleaner Log: Day 14: Cleaner visiting plant: Pineapple at grid (0,3)
+Insect Log: Day 14: Pest attack by Caterpillar on plant: Corn at grid (6,11)
+Cleaner Log: Day 14 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@6ff11027 cleaning pests near plant: Corn at grid (6,11)
+Cleaner Log: Day 14: Cleaner visiting plant: Corn at grid (6,11)
+Insect Log: Day 14: Good insect Butterfly is found near plant: Corn at grid (6,5)
+Insect Log: Day 14: Good insect Beetle is found near plant: Watermelon at grid (3,4)
+Insect Log: Day 14: Good insect Beetle is found near plant: Watermelon at grid (3,11)
+Insect Log: Day 14: Pest attack by Caterpillar on plant: Carrot at grid (3,2)
+Cleaner Log: Day 14 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@273d3f9c cleaning pests near plant: Carrot at grid (3,2)
+Cleaner Log: Day 14: Cleaner visiting plant: Carrot at grid (3,2)
+Insect Log: Day 14: Pest attack by Caterpillar on plant: Watermelon at grid (5,6)
+Insect Log: Day 14: Pest attack by Caterpillar on plant: Watermelon at grid (0,11)
+Insect Log: Day 14: Good insect Butterfly is found near plant: Watermelon at grid (4,10)
+Watering Log: Day 14: Plants watered.
+Day Log: Day 14: Weather is Cloudy. No special actions taken.
+Day Log: Day 14: simulation completed.
+Fertilizer Log: Day 14: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 14: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 14: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 14: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 14: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 14: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 14: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 14: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 14: Organic Fertilizer stock is not Available
+Day Log: Day 15: simulation started.
+Day Log: Weather: Snowy
+Insect Log: Day 15: Good insect Beetle is found near plant: Pineapple at grid (0,3)
+Insect Log: Day 15: Pest attack by Caterpillar on plant: Corn at grid (6,11)
+Insect Log: Day 15: Good insect Beetle is found near plant: Corn at grid (6,5)
+Insect Log: Day 15: Pest attack by Caterpillar on plant: Watermelon at grid (3,4)
+Cleaner Log: Day 15 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Watermelon at grid (3,4)
+Cleaner Log: Day 15: Cleaner visiting plant: Watermelon at grid (3,4)
+Insect Log: Day 15: Pest attack by Caterpillar on plant: Watermelon at grid (3,11)
+Insect Log: Day 15: Good insect Beetle is found near plant: Carrot at grid (3,2)
+Insect Log: Day 15: Pest attack by Spider on plant: Watermelon at grid (5,6)
+Cleaner Log: Day 15 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@6ff11027 cleaning pests near plant: Watermelon at grid (5,6)
+Cleaner Log: Day 15: Cleaner visiting plant: Watermelon at grid (5,6)
+Insect Log: Day 15: Good insect Butterfly is found near plant: Watermelon at grid (0,11)
+Insect Log: Day 15: Pest attack by Spider on plant: Watermelon at grid (4,10)
+Cleaner Log: Day 15 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@273d3f9c cleaning pests near plant: Watermelon at grid (4,10)
+Cleaner Log: Day 15: Cleaner visiting plant: Watermelon at grid (4,10)
+Watering Log: Day 15: Plants watered.
+Heating Log: Day 15: Heating system is activated.
+Day Log: Day 15: simulation completed.
+Fertilizer Log: 8 units of Organic Fertilizer is Restocked
+Fertilizer Log: 8 units of Chemical Fertilizer is Restocked
+Fertilizer Log: Day 15: Applied Chemical Fertilizer to plant: Pineapple at grid (0,3)
+Fertilizer Log: Day 15: Applied Organic Fertilizer to plant: Corn at grid (6,11)
+Fertilizer Log: Day 15: Applied Organic Fertilizer to plant: Corn at grid (6,5)
+Fertilizer Log: Day 15: Applied Chemical Fertilizer to plant: Watermelon at grid (3,4)
+Fertilizer Log: Day 15: Applied Organic Fertilizer to plant: Watermelon at grid (3,11)
+Fertilizer Log: Day 15: Applied Organic Fertilizer to plant: Carrot at grid (3,2)
+Fertilizer Log: Day 15: Applied Chemical Fertilizer to plant: Watermelon at grid (5,6)
+Fertilizer Log: Day 15: Applied Chemical Fertilizer to plant: Watermelon at grid (0,11)
+Fertilizer Log: Day 15: Applied Organic Fertilizer to plant: Watermelon at grid (4,10)
+Day Log: Day 16: simulation started.
+Day Log: Weather: Cold
+Insect Log: Day 16: Good insect Butterfly is found near plant: Pineapple at grid (0,3)
+Insect Log: Day 16: Pest attack by Caterpillar on plant: Corn at grid (6,11)
+Cleaner Log: Day 16 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Corn at grid (6,11)
+Cleaner Log: Day 16: Cleaner visiting plant: Corn at grid (6,11)
+Insect Log: Day 16: Pest attack by Caterpillar on plant: Corn at grid (6,5)
+Insect Log: Day 16: Pest attack by Caterpillar on plant: Watermelon at grid (3,4)
+Insect Log: Day 16: Pest attack by Spider on plant: Watermelon at grid (3,11)
+Cleaner Log: Day 16 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@6ff11027 cleaning pests near plant: Watermelon at grid (3,11)
+Cleaner Log: Day 16: Cleaner visiting plant: Watermelon at grid (3,11)
+Insect Log: Day 16: Pest attack by Caterpillar on plant: Carrot at grid (3,2)
+Insect Log: Day 16: Good insect Beetle is found near plant: Watermelon at grid (5,6)
+Insect Log: Day 16: Pest attack by Caterpillar on plant: Watermelon at grid (0,11)
+Cleaner Log: Day 16 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@273d3f9c cleaning pests near plant: Watermelon at grid (0,11)
+Cleaner Log: Day 16: Cleaner visiting plant: Watermelon at grid (0,11)
+Insect Log: Day 16: Pest attack by Caterpillar on plant: Watermelon at grid (4,10)
+Watering Log: Day 16: Plants watered.
+Heating Log: Day 16: Heating system is activated.
+Day Log: Day 16: simulation completed.
+Fertilizer Log: Day 16: Fertilizing not needed and Skipped Pineapple at grid (0,3). Days since last fertilized: 1. Frequency: 6
+Fertilizer Log: Day 16: Fertilizing not needed and Skipped Corn at grid (6,11). Days since last fertilized: 1. Frequency: 4
+Fertilizer Log: Day 16: Fertilizing not needed and Skipped Corn at grid (6,5). Days since last fertilized: 1. Frequency: 4
+Fertilizer Log: Day 16: Fertilizing not needed and Skipped Watermelon at grid (3,4). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 16: Fertilizing not needed and Skipped Watermelon at grid (3,11). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 16: Fertilizing not needed and Skipped Carrot at grid (3,2). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 16: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 16: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 16: Organic Fertilizer stock is not Available
+Day Log: Day 17: simulation started.
+Day Log: Weather: Windy
+Insect Log: Day 17: Pest attack by Caterpillar on plant: Pineapple at grid (0,3)
+Insect Log: Day 17: Good insect Beetle is found near plant: Corn at grid (6,11)
+Insect Log: Day 17: Good insect Butterfly is found near plant: Corn at grid (6,5)
+Insect Log: Day 17: Good insect Beetle is found near plant: Watermelon at grid (3,4)
+Insect Log: Day 17: Pest attack by Caterpillar on plant: Watermelon at grid (3,11)
+Insect Log: Day 17: Good insect Butterfly is found near plant: Carrot at grid (3,2)
+Insect Log: Day 17: Good insect Butterfly is found near plant: Watermelon at grid (5,6)
+Insect Log: Day 17: Pest attack by Spider on plant: Watermelon at grid (0,11)
+Insect Log: Day 17: Good insect Butterfly is found near plant: Watermelon at grid (4,10)
+Watering Log: Day 17: Plants watered.
+Day Log: Day 17: Weather ris Windy - Wind protection shield activated.
+Day Log: Day 17: simulation completed.
+Fertilizer Log: Day 17: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 17: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 17: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 17: Fertilizing not needed and Skipped Watermelon at grid (3,4). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 17: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 17: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 17: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 17: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 17: Organic Fertilizer stock is not Available
+Day Log: Day 18: simulation started.
+Day Log: Weather: Sunny
+Insect Log: Day 18: Pest attack by Spider on plant: Pineapple at grid (0,3)
+Cleaner Log: Day 18 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Pineapple at grid (0,3)
+Cleaner Log: Day 18: Cleaner visiting plant: Pineapple at grid (0,3)
+Insect Log: Day 18: Good insect Beetle is found near plant: Corn at grid (6,11)
+Insect Log: Day 18: Pest attack by Spider on plant: Corn at grid (6,5)
+Cleaner Log: Day 18 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@6ff11027 cleaning pests near plant: Corn at grid (6,5)
+Cleaner Log: Day 18: Cleaner visiting plant: Corn at grid (6,5)
+Insect Log: Day 18: Good insect Butterfly is found near plant: Watermelon at grid (3,4)
+Insect Log: Day 18: Pest attack by Spider on plant: Watermelon at grid (3,11)
+Cleaner Log: Day 18 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@273d3f9c cleaning pests near plant: Watermelon at grid (3,11)
+Cleaner Log: Day 18: Cleaner visiting plant: Watermelon at grid (3,11)
+Insect Log: Day 18: Pest attack by Caterpillar on plant: Carrot at grid (3,2)
+Insect Log: Day 18: Good insect Beetle is found near plant: Watermelon at grid (5,6)
+Insect Log: Day 18: Good insect Beetle is found near plant: Watermelon at grid (0,11)
+Insect Log: Day 18: Pest attack by Spider on plant: Watermelon at grid (4,10)
+Watering Log: Day 18: Plants watered.
+Day Log: Day 18: Weather is Sunny - Sprinklers activated for dry sunny weather.
+Day Log: Day 18: simulation completed.
+Cleaner Log: Day 18 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Carrot at grid (3,2)
+Cleaner Log: Day 18: Cleaner visiting plant: Carrot at grid (3,2)
+Cleaner Log: Day 18 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@6ff11027 cleaning pests near plant: Watermelon at grid (4,10)
+Cleaner Log: Day 18: Cleaner visiting plant: Watermelon at grid (4,10)
+Fertilizer Log: 8 units of Organic Fertilizer is Restocked
+Fertilizer Log: 8 units of Chemical Fertilizer is Restocked
+Fertilizer Log: Day 18: Fertilizing not needed and Skipped Pineapple at grid (0,3). Days since last fertilized: 2. Frequency: 6
+Fertilizer Log: Day 18: Fertilizing not needed and Skipped Corn at grid (6,11). Days since last fertilized: 2. Frequency: 4
+Fertilizer Log: Day 18: Fertilizing not needed and Skipped Corn at grid (6,5). Days since last fertilized: 2. Frequency: 4
+Fertilizer Log: Day 18: Applied Chemical Fertilizer to plant: Watermelon at grid (3,4)
+Fertilizer Log: Day 18: Fertilizing not needed and Skipped Watermelon at grid (3,11). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 18: Fertilizing not needed and Skipped Carrot at grid (3,2). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 18: Fertilizing not needed and Skipped Watermelon at grid (5,6). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 18: Fertilizing not needed and Skipped Watermelon at grid (0,11). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 18: Fertilizing not needed and Skipped Watermelon at grid (4,10). Days since last fertilized: 1. Frequency: 3
+Day Log: Day 19: simulation started.
+Day Log: Weather: Cold
+Insect Log: Day 19: Good insect Butterfly is found near plant: Pineapple at grid (0,3)
+Insect Log: Day 19: Pest attack by Spider on plant: Corn at grid (6,11)
+Insect Log: Day 19: Pest attack by Spider on plant: Corn at grid (6,5)
+Insect Log: Day 19: Good insect Beetle is found near plant: Watermelon at grid (3,4)
+Insect Log: Day 19: Good insect Butterfly is found near plant: Watermelon at grid (3,11)
+Insect Log: Day 19: Good insect Butterfly is found near plant: Carrot at grid (3,2)
+Insect Log: Day 19: Good insect Butterfly is found near plant: Watermelon at grid (5,6)
+Insect Log: Day 19: Pest attack by Caterpillar on plant: Watermelon at grid (0,11)
+Cleaner Log: Day 19 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Watermelon at grid (0,11)
+Cleaner Log: Day 19: Cleaner visiting plant: Watermelon at grid (0,11)
+Insect Log: Day 19: Pest attack by Spider on plant: Watermelon at grid (4,10)
+Watering Log: Day 19: Plants watered.
+Heating Log: Day 19: Heating system is activated.
+Day Log: Day 19: simulation completed.
+Fertilizer Log: Day 19: Fertilizing not needed and Skipped Pineapple at grid (0,3). Days since last fertilized: 3. Frequency: 6
+Fertilizer Log: Day 19: Fertilizing not needed and Skipped Corn at grid (6,11). Days since last fertilized: 3. Frequency: 4
+Fertilizer Log: Day 19: Fertilizing not needed and Skipped Corn at grid (6,5). Days since last fertilized: 3. Frequency: 4
+Fertilizer Log: Day 19: Fertilizing not needed and Skipped Watermelon at grid (3,4). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 19: Applied Organic Fertilizer to plant: Watermelon at grid (3,11)
+Fertilizer Log: Day 19: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 19: Fertilizing not needed and Skipped Watermelon at grid (5,6). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 19: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 19: Organic Fertilizer stock is not Available
+Day Log: Day 20: simulation started.
+Day Log: Weather: Snowy
+Insect Log: Day 20: Good insect Butterfly is found near plant: Pineapple at grid (0,3)
+Insect Log: Day 20: Good insect Butterfly is found near plant: Corn at grid (6,11)
+Insect Log: Day 20: Good insect Beetle is found near plant: Corn at grid (6,5)
+Insect Log: Day 20: Pest attack by Caterpillar on plant: Watermelon at grid (3,4)
+Cleaner Log: Day 20 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Watermelon at grid (3,4)
+Cleaner Log: Day 20: Cleaner visiting plant: Watermelon at grid (3,4)
+Insect Log: Day 20: Good insect Beetle is found near plant: Watermelon at grid (3,11)
+Insect Log: Day 20: Pest attack by Caterpillar on plant: Carrot at grid (3,2)
+Insect Log: Day 20: Good insect Butterfly is found near plant: Watermelon at grid (5,6)
+Insect Log: Day 20: Good insect Butterfly is found near plant: Watermelon at grid (0,11)
+Insect Log: Day 20: Good insect Butterfly is found near plant: Watermelon at grid (4,10)
+Watering Log: Day 20: Plants watered.
+Heating Log: Day 20: Heating system is activated.
+Day Log: Day 20: simulation completed.
+Fertilizer Log: Day 20: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 20: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 20: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 20: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 20: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 20: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 20: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 20: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 20: Fertilizing not needed and Skipped Watermelon at grid (4,10). Days since last fertilized: 2. Frequency: 3
+Day Log: Day 21: simulation started.
+Day Log: Weather: Windy
+Insect Log: Day 21: Good insect Butterfly is found near plant: Pineapple at grid (0,3)
+Insect Log: Day 21: Good insect Beetle is found near plant: Corn at grid (6,11)
+Insect Log: Day 21: Good insect Butterfly is found near plant: Corn at grid (6,5)
+Insect Log: Day 21: Pest attack by Spider on plant: Watermelon at grid (3,4)
+Insect Log: Day 21: Good insect Beetle is found near plant: Watermelon at grid (3,11)
+Insect Log: Day 21: Pest attack by Spider on plant: Carrot at grid (3,2)
+Cleaner Log: Day 21 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Carrot at grid (3,2)
+Cleaner Log: Day 21: Cleaner visiting plant: Carrot at grid (3,2)
+Insect Log: Day 21: Good insect Beetle is found near plant: Watermelon at grid (5,6)
+Insect Log: Day 21: Good insect Butterfly is found near plant: Watermelon at grid (0,11)
+Insect Log: Day 21: Pest attack by Spider on plant: Watermelon at grid (4,10)
+Cleaner Log: Day 21 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@6ff11027 cleaning pests near plant: Watermelon at grid (4,10)
+Cleaner Log: Day 21: Cleaner visiting plant: Watermelon at grid (4,10)
+Watering Log: Day 21: Plants watered.
+Day Log: Day 21: Weather ris Windy - Wind protection shield activated.
+Day Log: Day 21: simulation completed.
+Fertilizer Log: 8 units of Organic Fertilizer is Restocked
+Fertilizer Log: 8 units of Chemical Fertilizer is Restocked
+Fertilizer Log: Day 21: Fertilizing not needed and Skipped Pineapple at grid (0,3). Days since last fertilized: 4. Frequency: 6
+Fertilizer Log: Day 21: Applied Organic Fertilizer to plant: Corn at grid (6,11)
+Fertilizer Log: Day 21: Applied Organic Fertilizer to plant: Corn at grid (6,5)
+Fertilizer Log: Day 21: Fertilizing not needed and Skipped Watermelon at grid (3,4). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 21: Fertilizing not needed and Skipped Watermelon at grid (3,11). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 21: Applied Chemical Fertilizer to plant: Carrot at grid (3,2)
+Fertilizer Log: Day 21: Applied Chemical Fertilizer to plant: Watermelon at grid (5,6)
+Fertilizer Log: Day 21: Fertilizing not needed and Skipped Watermelon at grid (0,11). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 21: Applied Organic Fertilizer to plant: Watermelon at grid (4,10)
+Day Log: Day 22: simulation started.
+Day Log: Weather: Cloudy
+Insect Log: Day 22: Good insect Butterfly is found near plant: Pineapple at grid (0,3)
+Insect Log: Day 22: Pest attack by Caterpillar on plant: Corn at grid (6,11)
+Cleaner Log: Day 22 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Corn at grid (6,11)
+Cleaner Log: Day 22: Cleaner visiting plant: Corn at grid (6,11)
+Insect Log: Day 22: Pest attack by Spider on plant: Corn at grid (6,5)
+Cleaner Log: Day 22 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@6ff11027 cleaning pests near plant: Corn at grid (6,5)
+Cleaner Log: Day 22: Cleaner visiting plant: Corn at grid (6,5)
+Insect Log: Day 22: Good insect Butterfly is found near plant: Watermelon at grid (3,4)
+Insect Log: Day 22: Good insect Butterfly is found near plant: Watermelon at grid (3,11)
+Insect Log: Day 22: Pest attack by Caterpillar on plant: Carrot at grid (3,2)
+Insect Log: Day 22: Pest attack by Caterpillar on plant: Watermelon at grid (5,6)
+Insect Log: Day 22: Good insect Beetle is found near plant: Watermelon at grid (0,11)
+Insect Log: Day 22: Good insect Beetle is found near plant: Watermelon at grid (4,10)
+Watering Log: Day 22: Plants watered.
+Day Log: Day 22: Weather is Cloudy. No special actions taken.
+Day Log: Day 22: simulation completed.
+Fertilizer Log: Day 22: Fertilizing not needed and Skipped Pineapple at grid (0,3). Days since last fertilized: 5. Frequency: 6
+Fertilizer Log: Day 22: Fertilizing not needed and Skipped Corn at grid (6,11). Days since last fertilized: 1. Frequency: 4
+Fertilizer Log: Day 22: Fertilizing not needed and Skipped Corn at grid (6,5). Days since last fertilized: 1. Frequency: 4
+Fertilizer Log: Day 22: Applied Chemical Fertilizer to plant: Watermelon at grid (3,4)
+Fertilizer Log: Day 22: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 22: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 22: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 22: Applied Organic Fertilizer to plant: Watermelon at grid (0,11)
+Fertilizer Log: Day 22: Chemical Fertilizer stock is not Available
+Day Log: Day 23: simulation started.
+Day Log: Weather: Rainy
+Insect Log: Day 23: Good insect Butterfly is found near plant: Pineapple at grid (0,3)
+Insect Log: Day 23: Pest attack by Spider on plant: Corn at grid (6,11)
+Insect Log: Day 23: Good insect Butterfly is found near plant: Corn at grid (6,5)
+Insect Log: Day 23: Good insect Butterfly is found near plant: Watermelon at grid (3,4)
+Insect Log: Day 23: Good insect Beetle is found near plant: Watermelon at grid (3,11)
+Insect Log: Day 23: Pest attack by Spider on plant: Carrot at grid (3,2)
+Cleaner Log: Day 23 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Carrot at grid (3,2)
+Cleaner Log: Day 23: Cleaner visiting plant: Carrot at grid (3,2)
+Insect Log: Day 23: Good insect Butterfly is found near plant: Watermelon at grid (5,6)
+Insect Log: Day 23: Pest attack by Caterpillar on plant: Watermelon at grid (0,11)
+Insect Log: Day 23: Good insect Beetle is found near plant: Watermelon at grid (4,10)
+Watering Log: Day 23: Plants watered.
+Day Log: Day 23: weather is Rainy - Plants received natural watering from rain.
+Day Log: Day 23: simulation completed.
+Fertilizer Log: Day 23: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 23: Fertilizing not needed and Skipped Corn at grid (6,11). Days since last fertilized: 2. Frequency: 4
+Fertilizer Log: Day 23: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 23: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 23: Fertilizing not needed and Skipped Watermelon at grid (3,11). Days since last fertilized: 2. Frequency: 3
+Fertilizer Log: Day 23: Organic Fertilizer stock is not Available
+Fertilizer Log: Day 23: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 23: Chemical Fertilizer stock is not Available
+Fertilizer Log: Day 23: Organic Fertilizer stock is not Available
+Day Log: Day 24: simulation started.
+Day Log: Weather: Cold
+Insect Log: Day 24: Pest attack by Caterpillar on plant: Pineapple at grid (0,3)
+Insect Log: Day 24: Pest attack by Spider on plant: Corn at grid (6,11)
+Cleaner Log: Day 24 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@629b5d9f cleaning pests near plant: Corn at grid (6,11)
+Cleaner Log: Day 24: Cleaner visiting plant: Corn at grid (6,11)
+Insect Log: Day 24: Pest attack by Caterpillar on plant: Corn at grid (6,5)
+Insect Log: Day 24: Pest attack by Spider on plant: Watermelon at grid (3,4)
+Cleaner Log: Day 24 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@6ff11027 cleaning pests near plant: Watermelon at grid (3,4)
+Cleaner Log: Day 24: Cleaner visiting plant: Watermelon at grid (3,4)
+Insect Log: Day 24: Good insect Beetle is found near plant: Watermelon at grid (3,11)
+Insect Log: Day 24: Pest attack by Caterpillar on plant: Carrot at grid (3,2)
+Insect Log: Day 24: Good insect Beetle is found near plant: Watermelon at grid (5,6)
+Insect Log: Day 24: Pest attack by Caterpillar on plant: Watermelon at grid (0,11)
+Cleaner Log: Day 24 : Cleanercom.example.ComputerizedGarden.Systems.Cleaner@273d3f9c cleaning pests near plant: Watermelon at grid (0,11)
+Cleaner Log: Day 24: Cleaner visiting plant: Watermelon at grid (0,11)
+Insect Log: Day 24: Pest attack by Caterpillar on plant: Watermelon at grid (4,10)
+Watering Log: Day 24: Plants watered.
+Heating Log: Day 24: Heating system is activated.
+Day Log: Day 24: simulation completed.
+Fertilizer Log: 8 units of Organic Fertilizer is Restocked
+Fertilizer Log: 8 units of Chemical Fertilizer is Restocked
+Fertilizer Log: Day 24: Applied Organic Fertilizer to plant: Pineapple at grid (0,3)
+Fertilizer Log: Day 24: Fertilizing not needed and Skipped Corn at grid (6,11). Days since last fertilized: 3. Frequency: 4
+Fertilizer Log: Day 24: Fertilizing not needed and Skipped Corn at grid (6,5). Days since last fertilized: 2. Frequency: 4
+Fertilizer Log: Day 24: Fertilizing not needed and Skipped Watermelon at grid (3,4). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 24: Applied Chemical Fertilizer to plant: Watermelon at grid (3,11)
+Fertilizer Log: Day 24: Fertilizing not needed and Skipped Carrot at grid (3,2). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 24: Fertilizing not needed and Skipped Watermelon at grid (5,6). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 24: Fertilizing not needed and Skipped Watermelon at grid (0,11). Days since last fertilized: 1. Frequency: 3
+Fertilizer Log: Day 24: Fertilizing not needed and Skipped Watermelon at grid (4,10). Days since last fertilized: 1. Frequency: 3
+

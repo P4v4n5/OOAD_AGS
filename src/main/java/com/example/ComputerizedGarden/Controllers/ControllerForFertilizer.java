@@ -1,17 +1,18 @@
 package com.example.ComputerizedGarden.Controllers;
-import com.example.ComputerizedGarden.View.Logger;
-import javafx.util.Duration;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.animation.TranslateTransition;
-import javafx.animation.ScaleTransition;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
 import javafx.scene.Node;
 import javafx.scene.image.Image;
 import java.io.File;
 import java.util.List;
 import java.util.Random;
+import javafx.util.Duration;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.animation.TranslateTransition;
+import javafx.animation.ScaleTransition;
+import com.example.ComputerizedGarden.View.Logger;
+import javafx.scene.image.ImageView;
+
 import com.example.ComputerizedGarden.Systems.Fertilizer;
 import com.example.ComputerizedGarden.Model.Plant;
 
@@ -22,18 +23,6 @@ public class ControllerForFertilizer {
     private final Image fertilizerImage;
     private List<Fertilizer> fertilizers;
     private final Random random;
-//    private static final int HIGHLIGHT_DURATION_MS = 2000;
-
-    public ControllerForFertilizer(GridPane gridPane) {
-        this.gridPane = gridPane;
-        this.fertilizerImage = new Image(new File(FERTILIZER_IMAGE_PATH).toURI().toString());
-        fertilizers = List.of(
-                new Fertilizer("Organic Fertilizer", 13, 1),
-                new Fertilizer("Chemical Fertilizer", 13, 2)
-        ); // Initialize with 2 types of fertilizers
-        random = new Random();
-    }
-
 
     public EventHandler<ActionEvent> manageFertilizers(List<Plant> plants, Logger logger, int dayCount) {
         if (dayCount % 3 == 0) { // Every 3 days, restock fertilizers
@@ -49,7 +38,7 @@ public class ControllerForFertilizer {
                 fertilizer.reduceStock(1); // Use one unit of fertilizer
                 fertilizerApply(plant, fertilizer, logger, dayCount);
             } else {
-                logger.addFertilizerLogEntry("Day " + dayCount + ": No stock available for " + fertilizer.getName());
+                logger.addFertilizerLogEntry("Day " + dayCount + ": " + fertilizer.getName() + " stock is not Available");
             }
         }
         return null;
@@ -59,31 +48,15 @@ public class ControllerForFertilizer {
         for (Fertilizer fertilizer : fertilizers) {
             if (fertilizer.getName().equals(fertilizerName)) {
                 fertilizer.increaseStock(amount);
-                System.out.println("Restocked " + amount + " units of " + fertilizerName);
-                logger.addFertilizerLogEntry("Restocked " + amount + " units of " + fertilizerName);
+                System.out.println(amount + " units of " + fertilizerName + " is Restocked");
+                logger.addFertilizerLogEntry(amount + " units of " + fertilizerName + " is Restocked");
                 return;
             }
         }
-        System.out.println("Fertilizer " + fertilizerName + " not found.");
+        System.out.println(fertilizerName + " Fertilizer is not found.");
     }
 
-    public void fertilizerApply(Plant plant, Fertilizer fertilizer, Logger logger, int dayCount) {
-        plant.incrementDaysSinceLastFertilized();
-        if (plant.getDaysSinceLastFertilized() >= plant.getFertilizingFrequency()) {
-            plant.boostGrowth();
 
-
-            logger.addFertilizerLogEntry("Day " + dayCount + ": Applied " + fertilizer.getName()
-                    + " to plant: " + plant.getName() + " at grid (" + plant.getRow() + "," + plant.getCol() + ")");
-            toHighlightPlant(plant);
-            showFertilizerAnimation(plant);
-            plant.resetDaysSinceLastFertilized();
-        } else {
-            logger.addFertilizerLogEntry("Day " + dayCount + ": Skipped fertilizing " + plant.getName()
-                    + " at grid (" + plant.getRow() + "," + plant.getCol() + "). Days since last fertilized: "
-                    + plant.getDaysSinceLastFertilized() + ". Frequency: " + plant.getFertilizingFrequency());
-        }
-    }
 
     public void toHighlightPlant(Plant plant) {
 
@@ -99,6 +72,34 @@ public class ControllerForFertilizer {
 
             scaleTransition.play();
         }
+    }
+
+    public void fertilizerApply(Plant plant, Fertilizer fertilizer, Logger logger, int dayCount) {
+        plant.incrementDaysSinceLastFertilized();
+        if (plant.getDaysSinceLastFertilized() >= plant.getFertilizingFrequency()) {
+            plant.boostGrowth();
+
+
+            logger.addFertilizerLogEntry("Day " + dayCount + ": Applied " + fertilizer.getName()
+                    + " to plant: " + plant.getName() + " at grid (" + plant.getRow() + "," + plant.getCol() + ")");
+            toHighlightPlant(plant);
+            showFertilizerAnimation(plant);
+            plant.resetDaysSinceLastFertilized();
+        } else {
+            logger.addFertilizerLogEntry("Day " + dayCount + ": Fertilizing not needed and Skipped " + plant.getName()
+                    + " at grid (" + plant.getRow() + "," + plant.getCol() + "). Days since last fertilized: "
+                    + plant.getDaysSinceLastFertilized() + ". Frequency: " + plant.getFertilizingFrequency());
+        }
+    }
+
+    public ControllerForFertilizer(GridPane gridPane) {
+        this.gridPane = gridPane;
+        this.fertilizerImage = new Image(new File(FERTILIZER_IMAGE_PATH).toURI().toString());
+        fertilizers = List.of(
+                new Fertilizer("Organic Fertilizer", 13, 1),
+                new Fertilizer("Chemical Fertilizer", 13, 2)
+        ); // Initialize with 2 types of fertilizers
+        random = new Random();
     }
 
     public List<Fertilizer> getFertilizers() {
@@ -120,7 +121,6 @@ public class ControllerForFertilizer {
         transition.setToX(targetX - imageView.getLayoutX()); // Adjust based on the current layout position
         transition.setToY(targetY - imageView.getLayoutY()); // Adjust based on the current layout position
         transition.setOnFinished(event -> {
-            System.out.println("Removing fertilizer animation");
             gridPane.getChildren().remove(imageView);
         });
 

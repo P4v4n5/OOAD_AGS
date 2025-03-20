@@ -1,19 +1,12 @@
 package com.example.ComputerizedGarden.Model;
 
 public abstract class Insect {
-    // ------ Instance Variables ------
+    // Instance Variables
     private final String name;
     private final int row;
     private final int col;
 
-    // ------ Constructors ------
-    public Insect(String name, int row, int col) {
-        this.name = name;
-        this.row = row;
-        this.col = col;
-    }
-
-    // ------ Accessors ------
+    // Accessors
     public String getName() {
         return name;
     }
@@ -26,6 +19,15 @@ public abstract class Insect {
         return col;
     }
 
-    // ------ Abstract Methods ------
+    // Constructors
+    public Insect(String name, int row, int col) {
+        this.name = name;
+        this.row = row;
+        this.col = col;
+    }
+
+
+
+    // Abstract Methods
     public abstract boolean isPest();
 }

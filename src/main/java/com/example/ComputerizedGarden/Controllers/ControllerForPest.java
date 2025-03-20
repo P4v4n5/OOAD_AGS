@@ -26,19 +26,6 @@ public class ControllerForPest {
     private List<Cleaner> cleaners;
     private final Image cleanerImage;
 
-    public ControllerForPest(GridPane gridPane) {
-        this.gridPane = gridPane;
-        this.cleanerImage = new Image(new File("src/main/images/cleaner.gif").toURI().toString());
-        cleaners = List.of(new Cleaner(), new Cleaner(), new Cleaner()); // Initialize with 3 cleaners
-    }
-    private boolean isInsectPresent(Plant plant, List<Insect> insects) {
-        for (Insect insect : insects) {
-            if (insect.getRow() == plant.getRow() && insect.getCol() == plant.getCol()) {
-                return true;
-            }
-        }
-        return false;
-    }
 
     private void handleCleanerGif(Cleaner cleaner, int row, int col, Logger logger, int dayCount, String plantName) {
         ImageView imageView = new ImageView(cleanerImage);
@@ -51,8 +38,23 @@ public class ControllerForPest {
         pause.play();
     }
 
+    public ControllerForPest(GridPane gridPane) {
+        this.gridPane = gridPane;
+        this.cleanerImage = new Image(new File("src/main/images/cleaner.gif").toURI().toString());
+        cleaners = List.of(new Cleaner(), new Cleaner(), new Cleaner()); // Initialize with 3 cleaners
+    }
+
     public List<Cleaner> getCleaners() {
         return cleaners;
+    }
+
+    private boolean isInsectPresent(Plant plant, List<Insect> insects) {
+        for (Insect insect : insects) {
+            if (insect.getRow() == plant.getRow() && insect.getCol() == plant.getCol()) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public void managePests(List<Plant> plants, List<Insect> insects, Logger logger, int dayCount) {
@@ -72,7 +74,7 @@ public class ControllerForPest {
                 Insect beneficialInsect = new BeneficialInsect(insectName, plant.getRow(), plant.getCol());
                 if (!isInsectPresent(plant, insects)) {
                     insects.add(beneficialInsect);
-                    logger.addInsectLogEntry("Day " + dayCount + ": Beneficial insect " + insectName + " found near plant: " + plant.getName() + " at grid (" + plant.getRow() + "," + plant.getCol() + ")");
+                    logger.addInsectLogEntry("Day " + dayCount + ": Good insect " + insectName + " is found near plant: " + plant.getName() + " at grid (" + plant.getRow() + "," + plant.getCol() + ")");
                 }
             }
             if (plant.getPestAttacks() > 1 && !plant.isDead()) {

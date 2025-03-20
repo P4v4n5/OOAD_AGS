@@ -1,7 +1,7 @@
 package com.example.ComputerizedGarden.Systems;
 
 public class Sensor {
-    private String type; // e.g., "Rainy", "Sunny", "Cold"
+    private String type; // example;, "Rainy", "Sunny", "Cold"
     private int temperature;
 
     public Sensor(String type, int temperature) {
