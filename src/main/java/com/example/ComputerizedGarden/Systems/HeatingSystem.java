@@ -8,14 +8,14 @@ public class HeatingSystem {
     private int currentTemperature;
 
     public HeatingSystem() {
-        this.currentTemperature = 20; // Default temperature
+        this.currentTemperature = 20;
     }
 
     public void increaseTemperature(List<Plant> plants) {
         currentTemperature += 5;
         for (Plant plant : plants) {
             if (!plant.isDead()) {
-                plant.boostGrowth(); // Increase plant lifespan significantly
+                plant.boostGrowth();
             }
         }
     }
@@ -24,7 +24,7 @@ public class HeatingSystem {
         currentTemperature -= 5;
         for (Plant plant : plants) {
             if (!plant.isDead()) {
-                plant.getDaysToLiveProperty().set(plant.getDaysToLive() - 1); // Slightly decrease lifespan
+                plant.getDaysToLiveProperty().set(plant.getDaysToLive() - 1);
             }
         }
     }

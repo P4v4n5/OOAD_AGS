@@ -5,7 +5,6 @@ import javafx.beans.property.SimpleIntegerProperty;
 
 public abstract class Plant {
 
-    private final String name;
     private final IntegerProperty daysToLive;
     private final int maxLifespan;
     private final int waterRequirement;
@@ -13,6 +12,7 @@ public abstract class Plant {
     private final int col;
     private int pestAttacks = 0;
     private boolean isDead = false;
+    private final String name;
     private int daysSinceLastFertilized = 0;
     private int currentWater;
     private int fertilizingFrequency;
@@ -32,47 +32,9 @@ public abstract class Plant {
     }
 
 
-    public String getName() {
-        return name;
-    }
 
-    public IntegerProperty getDaysToLiveProperty() {
-        return daysToLive;
-    }
 
-    public int getDaysToLive() {
-        return daysToLive.get();
-    }
-
-    public int getRow() {
-        return row;
-    }
-
-    public int getCol() {
-        return col;
-    }
-
-    public boolean isDead() {
-        return isDead;
-    }
-
-    public int getWaterRequirement() {
-        return waterRequirement;
-    }
-
-    public int getPestAttacks() {
-        return pestAttacks;
-    }
-
-    public int getDaysSinceLastFertilized() {
-        return daysSinceLastFertilized;
-    }
-
-    public int getCurrentWater() {
-        return this.currentWater;
-    }
-
-    // ------ Mutator Methods ------
+    //  Mutator Methods
     public void incrementDaysSinceLastFertilized() {
         daysSinceLastFertilized++;
     }
@@ -92,6 +54,47 @@ public abstract class Plant {
         if (daysToLive.get() <= 0) {
             isDead = true;
         }
+    }
+
+    public int getCol() {
+        return col;
+    }
+
+    public boolean isDead() {
+        return isDead;
+    }
+    public int getPestAttacks() {
+        return pestAttacks;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public IntegerProperty getDaysToLiveProperty() {
+        return daysToLive;
+    }
+
+
+    public int getCurrentWater() {
+        return this.currentWater;
+    }
+
+    public int getWaterRequirement() {
+        return waterRequirement;
+    }
+
+    public int getDaysToLive() {
+        return daysToLive.get();
+    }
+
+    public int getRow() {
+        return row;
+    }
+
+
+    public int getDaysSinceLastFertilized() {
+        return daysSinceLastFertilized;
     }
 
     public void boostGrowth() {
@@ -150,22 +153,12 @@ public abstract class Plant {
         this.fertilizingFrequency = fertilizingFrequency;
     }
 
-    // ------ Abstract Methods ------
+    // Abstract Methods
     public abstract int getCount();
 
     public abstract void decrementCount();
 
-    // ------ Other Methods ------
-    public void water(int amount) {
-        if (!isDead) {
-            currentWater += amount;
-            if (currentWater >= waterRequirement) {
-                daysToLive.set(Math.min(daysToLive.get() + 1, maxLifespan));// Increase lifespan by 1 day if properly wateredd
-            } else {
-                daysToLive.set(daysToLive.get() - 1);
-            }
-        }
-    }
+
 
     public void heat() {
         if (!isDead) {
@@ -176,6 +169,18 @@ public abstract class Plant {
     public void cool() {
         if (!isDead) {
             daysToLive.set(daysToLive.get() + 1); // Increase lifespan by 1 day when cooled
+        }
+    }
+
+    // Other Methods
+    public void water(int amount) {
+        if (!isDead) {
+            currentWater += amount;
+            if (currentWater >= waterRequirement) {
+                daysToLive.set(Math.min(daysToLive.get() + 1, maxLifespan));// Increase lifespan by 1 day if properly wateredd
+            } else {
+                daysToLive.set(daysToLive.get() - 1);
+            }
         }
     }
 }

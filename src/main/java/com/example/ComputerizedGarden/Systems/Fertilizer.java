@@ -30,7 +30,7 @@ public class Fertilizer {
         if (stock >= amount) {
             stock -= amount;
         } else {
-            throw new IllegalStateException("Not enough stock for " + name);
+            throw new IllegalStateException("Stock is low " + name);
         }
     }
 

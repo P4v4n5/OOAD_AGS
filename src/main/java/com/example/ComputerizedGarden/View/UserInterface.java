@@ -46,7 +46,7 @@ public class UserInterface extends Application {
     protected ListView<String> directoryListView;
     protected Timeline simulationTimeline;
     protected ControllerForPest controllerForPest;
-//    protected TableView<Plant> plantTable;
+    protected TableView<Plant> plantTable;
     protected String currentWeather;
     protected ProgressBar waterProgressBar;
     protected Label waterProgressLabel;
@@ -56,7 +56,7 @@ public class UserInterface extends Application {
     protected ControllerForFertilizer controllerForFertilizer;
     protected Button startSimulationButton;
     protected Button pauseSimulationButton;
-//    protected Button modifyIrrigation;
+    protected Button modifyIrrigation;
     private final HashMap<String, Image> imageCache = new HashMap<>();
     private Label fertilizerStockLabel;
     private ProgressBar fertilizerStockProgressBar;
@@ -64,39 +64,25 @@ public class UserInterface extends Application {
     private ControllerForSensor controllerForSensor;
 
 
-    //------ Other Methods ------
     @Override
     public void start(Stage primaryStage) {
         controllerForSensor = new ControllerForSensor(gardenGrid);
 
         VBox root = new VBox();
-        //root.setSpacing(10);
-        root.setStyle(" -fx-background-image: url('file:src/main/images/garden_bg.jpg');"
+        root.setStyle(" -fx-background-image: url('file:src/main/images/garden6.png');"
                 + "-fx-background-size: cover;");
         createGardenGrid();
         VBox gridBox = new VBox();
         VBox plantBox = createPlantBox();
-//        plantBox.setSpacing(140);
 
         ImageView bird = createBirdImage();
-        Pane birdPane = new Pane(); // Use Pane for free movement
+        Pane birdPane = new Pane();
         birdPane.getChildren().add(bird);
-        bird.setLayoutY(50); // Set initial Y position
+        bird.setLayoutY(50);
 
-// Start flying animation
-//        animateBird(bird);p----------------------
-//        scatterButterflies(root);p-----------------
 
-// Add the new birdPane to gridBox
-//        gridBox.getChildren().addAll(birdPane);
         gridBox.getChildren().addAll(plantBox, gardenGrid);
 
-//        ImageView bird = createBirdImage();
-//        if (gardenGrid != null) {
-//            gridBox.getChildren().addAll(bird,plantBox, gardenGrid);
-//        }
-
-        //controllerForSensor.placeSensorInGrid();
 
         VBox.setVgrow(gardenGrid, Priority.ALWAYS);
 
@@ -109,10 +95,6 @@ public class UserInterface extends Application {
         VBox weatherBox = createWeatherBox();
         VBox progressBox = createProgressBox();
 
-//        ImageView farmer = createFarmerImage();p--------------------------
-
-
-
         HBox tempAndWaterBox = createTempAndWaterBox(progressBox);
 
         Label directoryLabel = createDirectoryLabel();
@@ -124,22 +106,16 @@ public class UserInterface extends Application {
         fertilizerStockLabel.setFont(Font.font("Arial", FontWeight.BOLD, 16));
         fertilizerStockLabel.setTextFill(Color.GREEN);
 
-        fertilizerStockProgressBar = new ProgressBar(1.0);  // Full stock at the start
+        fertilizerStockProgressBar = new ProgressBar(1.0);
         fertilizerStockProgressBar.setPrefWidth(200);
 
-        // Add to your layout (root, VBox, etc.)
-//        root.getChildren().addAll(fertilizerStockLabel, fertilizerStockProgressBar);
         root.getChildren().add(directoryBox);
-        // Add Fertilizer Button
-        // Add Fertilizer Button Below Weather Report
         VBox rightPane = createRightPane(weatherBox, tempAndWaterBox, directoryLabel);
-//        createPlantTable();
 
         HBox mainBox = createMainBox(topBox, rightPane);
         HBox buttonBox = createButtonBox();
-        //gridBox.getChildren().add(buttonBox);
 
-        // Button to toggle logs
+        // Log show/hide button
         Button toggleLogsButton = new Button("Show Logs");
         toggleLogsButton.setStyle("-fx-background-color: black; -fx-text-fill: white; -fx-border-color: white;");
         toggleLogsButton.setOnAction(event -> {
@@ -158,10 +134,7 @@ public class UserInterface extends Application {
 
         buttonBox.getChildren().add(toggleLogsButton);
         gridBox.getChildren().add(buttonBox);
-//        gridBox.getChildren().add(farmer);p--------------------------
         root.getChildren().addAll(mainBox);
-
-        //root.getChildren().addAll(mainBox, logAccordion);
 
         Scene scene = new Scene(root);
         primaryStage.setTitle("Automated Gardening System");
@@ -178,35 +151,14 @@ public class UserInterface extends Application {
     }
 
     private ImageView createFarmerImageWalk() {
-        // Load the GIF of the farmer (replace with your actual file path)
         Image farmerImage = new Image("file:src/main/images/farmer_walk.gif");
         ImageView farmerImageView = new ImageView(farmerImage);
 
         // Set initial size for the farmer image
-        farmerImageView.setFitHeight(600); // Adjust the height as needed
-        farmerImageView.setFitWidth(600);  // Adjust the width as needed
+        farmerImageView.setFitHeight(600);
+        farmerImageView.setFitWidth(600);
 
         return farmerImageView;
-    }
-
-    private void animateFarmerImage(ImageView farmerImageView, VBox root) {
-        // Create the Timeline animation
-        Timeline timeline = new Timeline(
-                new KeyFrame(Duration.seconds(0), e -> {
-                    // Initial position of the farmer (just below the garden grid)
-                    farmerImageView.setX(0);  // Starting from the left side
-                    farmerImageView.setY(gardenGrid.getLayoutBounds().getMaxY() + 10); // 10px below the garden grid
-                }),
-                new KeyFrame(Duration.seconds(5), e -> {
-                    // Final position of the farmer (moving to the right side)
-                    farmerImageView.setX(root.getWidth() - farmerImageView.getFitWidth()); // Right side of the screen
-                })
-        );
-
-        // Set the animation to repeat indefinitely and auto-reverse
-        timeline.setCycleCount(Timeline.INDEFINITE);
-        timeline.setAutoReverse(true); // Moves back and forth
-        timeline.play();  // Start the animation
     }
 
 
@@ -305,7 +257,7 @@ public class UserInterface extends Application {
         Label plantLabel = new Label("Select Plants");
         plantLabel.setFont(Font.font("Arial", FontWeight.BOLD, 20));
         plantLabel.setTextFill(Color.BLACK);  // Set text color to white for better visibility
-        plantLabel.setPadding(new Insets(220, 0, 0, 0)); // 10px padding on top
+        plantLabel.setPadding(new Insets(190, 0, 0, 0)); // 10px padding on top
         plantLabel.setStyle("-fx-effect: dropshadow( gaussian, white, 5, 0, 0, 0);");
 
 
@@ -521,7 +473,6 @@ public class UserInterface extends Application {
         Label directoryLabel = new Label("GARDEN METRICS");
         directoryLabel.setFont(Font.font("Arial", FontWeight.BOLD, 16));
         directoryLabel.setStyle("-fx-background-color: black; -fx-text-fill: white; -fx-border-color: white;");
-//        directoryLabel.setStyle("-fx-text-fill: #FFFFFF; -fx-padding: 10; -fx-alignment: center;");
 
         VBox directoryLabelBox = new VBox();
         directoryLabelBox.setStyle(
@@ -617,42 +568,6 @@ private void createDirectoryListView() {
     }
 
 
-//private void createPlantTable() {
-//    // Create TableView
-//    plantTable = new TableView<>();
-//    plantTable.setStyle(
-//            "-fx-background-image: url('file:src/main/images/vegetables.jpg');"
-//                    + "-fx-background-size: cover; "
-//                    + "-fx-background-position: center center; "
-//                    + "-fx-background-repeat: no-repeat; "
-//    );
-//
-//
-//    Label placeholderLabel = new Label("No plants available");
-//    placeholderLabel.setStyle("-fx-font-size: 18px; -fx-text-fill: #4CAF50;");
-//    plantTable.setPlaceholder(placeholderLabel);
-//    TableColumn<Plant, String> nameColumn = new TableColumn<>("Plant");
-//    nameColumn.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getName()));
-//    nameColumn.setStyle("-fx-font-size: 14px; -fx-font-weight: bold; -fx-alignment: center;");
-//
-//    TableColumn<Plant, Integer> countColumn = new TableColumn<>("Count");
-//    countColumn.setCellValueFactory(cellData -> new SimpleIntegerProperty(cellData.getValue().getCount()).asObject());
-//    countColumn.setStyle("-fx-font-size: 14px; -fx-alignment: center;");
-//
-//    TableColumn<Plant, Integer> lifespanColumn = new TableColumn<>("Lifespan");
-//    lifespanColumn.setCellValueFactory(cellData -> new SimpleIntegerProperty(cellData.getValue().getDaysToLive()).asObject());
-//    lifespanColumn.setStyle("-fx-font-size: 14px; -fx-alignment: center;");
-//    TableColumn<Plant, Integer> pestCountColumn = new TableColumn<>("Pest Attacks");
-//    pestCountColumn.setCellValueFactory(cellData -> new SimpleIntegerProperty(cellData.getValue().getPestAttacks()).asObject());
-//    pestCountColumn.setStyle("-fx-font-size: 14px; -fx-alignment: center;");
-//    plantTable.getColumns().addAll(List.of(nameColumn, countColumn, lifespanColumn, pestCountColumn));
-//
-//    VBox tableContainer = new VBox();
-//    tableContainer.setStyle("-fx-padding: 10; -fx-background-color:#98FB98 ;");
-//    tableContainer.getChildren().add(plantTable);
-//    VBox.setVgrow(tableContainer, Priority.ALWAYS);
-//
-//}
 
 
     private HBox createMainBox(HBox topBox, VBox rightPane) {
@@ -679,60 +594,51 @@ private void createDirectoryListView() {
         pauseSimulationButton.setOnAction(_ -> pauseSimulation());
         pauseSimulationButton.setDisable(true);
 
-//        modifyIrrigation = new Button("Modify Irrigation");
-////        modifyIrrigation.setStyle("-fx-background-color: #000000; -fx-text-fill: white; -fx-font-weight: bold;");
-//        modifyIrrigation.setStyle("-fx-background-color: black; -fx-text-fill: white; -fx-border-color: white;");
-//        modifyIrrigation.setFont(Font.font("Arial", FontWeight.BOLD, 14));
-//        modifyIrrigation.setOnAction(_ -> openModifyIrrigationPanel());
-
         buttonBox.getChildren().addAll(startSimulationButton, pauseSimulationButton);
 
         buttonBox.setStyle("-fx-background-color: transparent;");
         return buttonBox;
     }
 
-//    private void openModifyIrrigationPanel() {
-//        boolean needToStartAgain = false;
-//        if (this.simulationTimeline != null) {
-//            needToStartAgain = true;
-//            pauseSimulation();
-//        }
-//        Stage irrigationPanel = new Stage();
-//        irrigationPanel.initModality(Modality.APPLICATION_MODAL);
-//        irrigationPanel.setTitle("Modify Irrigation Zones");
-//        VBox layout = new VBox(10);
-//        layout.setPadding(new Insets(10));
-//        layout.setAlignment(Pos.CENTER);
-//        Label titleLabel = new Label("Modify Irrigation Zones");
-//        titleLabel.setFont(Font.font("Arial", FontWeight.BOLD, 16));
-//        GridPane gridPane = new GridPane();
-//        gridPane.setHgap(10);
-//        gridPane.setVgap(10);
-//        gridPane.setPadding(new Insets(10));
-//
-//        int row = 0;
-//        int col = 0;
-//        HashMap<Integer, Integer> intervals = new HashMap<>();
-//        for (Zone zone : IrrigationSystem.getZones()) {
-//            addZone(gridPane, zone, row, col, intervals);
-//            col++;
-//            if (col == 3) {
-//                col = 0;
-//                row++;
-//            }
-//        }
-//
-//        // Create Save and Cancel Buttons
-//        HBox buttonBox = createSaveAndCancelBox(irrigationPanel, intervals);
-//        layout.getChildren().addAll(titleLabel, gridPane, buttonBox);
-//
-//        Scene scene = new Scene(layout, 400, 600);
-//        irrigationPanel.setScene(scene);
-//        irrigationPanel.showAndWait();
-//        if (needToStartAgain) {
-//            startSimulation();
-//        }
-//    }
+
+
+
+
+    private HBox createSaveAndCancelBox(Stage irrigationPanel, HashMap<Integer, Integer> intervals) {
+        HBox buttonBox = new HBox(10);
+        buttonBox.setAlignment(Pos.CENTER);
+
+        // Save button
+        Button saveButton = new Button("Save");
+        saveButton.setStyle("-fx-background-color: #32CD32; -fx-text-fill: white;");
+        saveButton.setOnAction(_ -> {
+            intervals.forEach((key, value) -> IrrigationSystem.getZone(key).setInterval(value));
+            System.out.println("Irrigation settings saved!");
+            irrigationPanel.close();
+        });
+
+        // Cancel button
+        Button cancelButton = new Button("Cancel");
+        cancelButton.setStyle("-fx-background-color: #FF0000; -fx-text-fill: white;");
+        cancelButton.setOnAction(_ -> irrigationPanel.close());
+
+        buttonBox.getChildren().addAll(saveButton, cancelButton);
+        return buttonBox;
+    }
+
+    private TitledPane createStyledTitledPane(String title, ListView<TextFlow> listView) {
+        TitledPane pane = new TitledPane(title, listView);
+        pane.setStyle("-fx-font-weight: bold; -fx-background-color: #f5f5f5;");
+        return pane;
+    }
+
+    private ListView<TextFlow> createStyledListView(String placeholder) {
+        ListView<TextFlow> listView = new ListView<>();
+        listView.setPlaceholder(new Label(placeholder));
+        listView.setStyle("-fx-background-color: rgba(255, 255, 255, 0.8); -fx-border-radius: 5;");
+        VBox.setVgrow(listView, Priority.ALWAYS);
+        return listView;
+    }
 
     private void addZone(GridPane gridPane, Zone zone, int row, int col, HashMap<Integer, Integer> intervals) {
         VBox zoneSettings = new VBox(10);
@@ -770,42 +676,6 @@ private void createDirectoryListView() {
 
         zoneSettings.getChildren().addAll(zoneLabel, intervalInput, enableZone, irrigationTypeLabel, irrigationTypeDropdown);
         gridPane.add(zoneSettings, col, row);
-    }
-
-    private HBox createSaveAndCancelBox(Stage irrigationPanel, HashMap<Integer, Integer> intervals) {
-        HBox buttonBox = new HBox(10);
-        buttonBox.setAlignment(Pos.CENTER);
-
-        // Save button
-        Button saveButton = new Button("Save");
-        saveButton.setStyle("-fx-background-color: #32CD32; -fx-text-fill: white;");
-        saveButton.setOnAction(_ -> {
-            intervals.forEach((key, value) -> IrrigationSystem.getZone(key).setInterval(value));
-            System.out.println("Irrigation settings saved!");
-            irrigationPanel.close();
-        });
-
-        // Cancel button
-        Button cancelButton = new Button("Cancel");
-        cancelButton.setStyle("-fx-background-color: #FF0000; -fx-text-fill: white;");
-        cancelButton.setOnAction(_ -> irrigationPanel.close());
-
-        buttonBox.getChildren().addAll(saveButton, cancelButton);
-        return buttonBox;
-    }
-
-    private TitledPane createStyledTitledPane(String title, ListView<TextFlow> listView) {
-        TitledPane pane = new TitledPane(title, listView);
-        pane.setStyle("-fx-font-weight: bold; -fx-background-color: #f5f5f5;");
-        return pane;
-    }
-
-    private ListView<TextFlow> createStyledListView(String placeholder) {
-        ListView<TextFlow> listView = new ListView<>();
-        listView.setPlaceholder(new Label(placeholder));
-        listView.setStyle("-fx-background-color: rgba(255, 255, 255, 0.8); -fx-border-radius: 5;");
-        VBox.setVgrow(listView, Priority.ALWAYS);
-        return listView;
     }
 
     private void updateWeatherImage(String weather) {
@@ -904,8 +774,7 @@ private void createDirectoryListView() {
         directoryListView.getItems().add("  - Spider: " + spiderCount);
         directoryListView.getItems().add("  - Caterpillar: " + caterpillarCount);
 
-//        plantTable.getItems().clear();
-//        plantTable.getItems().addAll(controllerForGarden.getPlants());
+
 
     }
 
@@ -1026,22 +895,6 @@ private void createDirectoryListView() {
         return null;
     }
 
-    private void updateLog() {
-        dayLogList.getItems().clear();
-        wateringLogList.getItems().clear();
-        heatingLogList.getItems().clear();
-        insectLogList.getItems().clear();
-        cleanerLogList.getItems().clear();
-        fertilizerLogList.getItems().clear();
-
-        addLogEntries(dayLogList, controllerForGarden.getLogger().getDayLogEntries(), Color.BLUE);
-        addLogEntries(wateringLogList, controllerForGarden.getLogger().getWateringLogEntries(), Color.GREEN);
-        addLogEntries(heatingLogList, controllerForGarden.getLogger().getHeatingLogEntries(), Color.ORANGE);
-        addLogEntries(insectLogList, controllerForGarden.getLogger().getInsectLogEntries(), Color.RED);
-        addLogEntries(cleanerLogList, controllerForGarden.getLogger().getCleanerLogEntries(), Color.PURPLE);
-        addLogEntries(fertilizerLogList, controllerForGarden.getLogger().getFertilizerLogEntries(), Color.YELLOW);
-    }
-
     private void addLogEntries(ListView<TextFlow> logList, List<String> logEntries, Color color) {
         for (String entry : logEntries) {
             String[] parts = entry.split(": ");
@@ -1073,6 +926,24 @@ private void createDirectoryListView() {
         }
     }
 
+    private void updateLog() {
+        dayLogList.getItems().clear();
+        wateringLogList.getItems().clear();
+        heatingLogList.getItems().clear();
+        insectLogList.getItems().clear();
+        cleanerLogList.getItems().clear();
+        fertilizerLogList.getItems().clear();
+
+        addLogEntries(dayLogList, controllerForGarden.getLogger().getDayLogEntries(), Color.BLUE);
+        addLogEntries(wateringLogList, controllerForGarden.getLogger().getWateringLogEntries(), Color.GREEN);
+        addLogEntries(heatingLogList, controllerForGarden.getLogger().getHeatingLogEntries(), Color.ORANGE);
+        addLogEntries(insectLogList, controllerForGarden.getLogger().getInsectLogEntries(), Color.RED);
+        addLogEntries(cleanerLogList, controllerForGarden.getLogger().getCleanerLogEntries(), Color.PURPLE);
+        addLogEntries(fertilizerLogList, controllerForGarden.getLogger().getFertilizerLogEntries(), Color.YELLOW);
+    }
+
+
+
     private void startSimulation() {
         startSimulationButton.setDisable(true);
         if (controllerForGarden.getDay() == 0) {
@@ -1088,6 +959,25 @@ private void createDirectoryListView() {
         pauseSimulationButton.setDisable(true);
         simulationTimeline.pause();
         startSimulationButton.setDisable(false);
+    }
+
+    private void startAnimation() {
+        AnimationTimer timer = new AnimationTimer() {
+            @Override
+            public void handle(long now) {
+                updateGardenGrid();
+            }
+        };
+        timer.start();
+    }
+
+    private static javafx.scene.Node getNodeByRowColumnIndex(final int row, final int column, GridPane gridPane) {
+        for (javafx.scene.Node node : gridPane.getChildren()) {
+            if (GridPane.getRowIndex(node) == row && GridPane.getColumnIndex(node) == column) {
+                return node;
+            }
+        }
+        return null;
     }
 
     private void simulateDay() {
@@ -1117,24 +1007,7 @@ private void createDirectoryListView() {
 
     }
 
-    private void startAnimation() {
-        AnimationTimer timer = new AnimationTimer() {
-            @Override
-            public void handle(long now) {
-                updateGardenGrid();
-            }
-        };
-        timer.start();
-    }
 
-    private static javafx.scene.Node getNodeByRowColumnIndex(final int row, final int column, GridPane gridPane) {
-        for (javafx.scene.Node node : gridPane.getChildren()) {
-            if (GridPane.getRowIndex(node) == row && GridPane.getColumnIndex(node) == column) {
-                return node;
-            }
-        }
-        return null;
-    }
 
     private void updateProgressBars(int temperature) {
         // Update temperature progress bar

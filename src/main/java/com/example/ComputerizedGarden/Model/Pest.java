@@ -1,12 +1,12 @@
 package com.example.ComputerizedGarden.Model;
 
 public class Pest extends Insect {
-    // ------ Constructors ------
+    // Constructors
     public Pest(String name, int row, int col) {
         super(name, row, col);
     }
 
-    // ------ Accessor Methods ------
+    // Accessor Methods
     @Override
     public boolean isPest() {
         return true;
